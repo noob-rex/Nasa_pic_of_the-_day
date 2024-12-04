@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: left; /* Left-aligned header */
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Ensure main content is left-aligned */
+}
+
+#search-container {
+  padding:20px ;
+  background-color: #fff;
+}
+
+#search-form {
+  display: flex;
+  flex-direction: row; /* Arrange form elements vertically */
+  align-items: flex-start; /* Align items to the left */
+}
+
+#current-image-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: left; /* Ensure content is left-aligned */
+}
+
+#current-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#search-history {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Ensure list content is left-aligned */
+}
+
+#search-history li {
+  color: blue;
+  cursor: pointer;
+  text-align: left; /* Align list items to the left */
+}
+
+#search-history li:hover {
+  background-color: #ececec;
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  align-self: flex-start; /* Align buttons to the left */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
